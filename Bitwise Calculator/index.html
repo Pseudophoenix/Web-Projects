@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Calculator
+    </title>
+    <style>
+        .calc {
+            width: 800px;
+            height: auto;
+            margin: auto;
+            margin-top: 20vh;
+            padding: 20px;
+            background-color: olivedrab;
+            border-radius: 14px;
+            box-shadow: black 2px 2px 6px;
+        }
+        
+        #display {
+            background-color: #0008fd;
+            width: 95%;
+            height: 60px;
+            border: rgb(249, 247, 247) 10px solid;
+            border-radius: 15px;
+            padding: 10px;
+            color:white;
+            font-family: "LED Dot-Matrix","Dot Matrix" ;
+            font-size:68px;
+            text-align: right;
+            box-shadow: black 2px 2px 6px;
+        }
+        
+        input[type="button"] {
+            width: 100%;
+            /* float: left; */
+            border-radius: 10px;
+            padding: 10px;
+            border: 0px solid gray;
+            box-shadow: black 2px 2px 6px;
+            margin: 10px;
+            color: black;
+        }
+        
+        .container {
+            display: flex;
+            height: auto;
+            margin: auto;
+        }
+        
+        .col {
+            display: block;
+            width: 25%;
+            margin: 0px 10px 0px 10px;
+        }
+        
+        .extra1,
+        .extra2,.extra3 {
+            display: flex;
+            width: 100%;
+        }
+        .extra1>.col {
+            width: 33.33%;
+        }
+        .extra2>.col {
+            width: 50%;
+        }
+        .extra3>.col{
+            width: 100%;
+        }
+        </style>
+</head>
+
+<body>
+    <div class="calc">
+        <div id="display"></div>
+        <div id="panel">
+            <div class="container" id="row1">
+                <div class="extra1">
+                    <div class="col">
+                        <input type="button" onclick="stringUpdate('0')" value="0">
+                    </div>
+                    <div class="col">
+                        <input type="button" onclick="stringUpdate('1')" value="1">
+                    </div>
+                    <div class="col">
+                        <input type="button" onclick="calculate()" value="=">
+                    </div>
+                </div>
+                <div class="extra2">
+                    <div class="col">
+                        <input type="button" onclick="return ClearS()" value="Reset">
+                    </div>
+                    <div class="col">
+                        <input type="button" value="<<PrevOperation">
+                    </div>
+                </div>
+            </div>
+
+            <div class="container" id="row2">
+                <div class="col">
+                    <input type="button" onclick="stringUpdate('&')"value="Logical AND">
+                </div>
+                <div class="col">
+                    <input type="button" onclick="stringUpdate('^')" value="Logical OR">
+                </div>
+                <div class="col">
+                    <input type="button"
+                    onclick="stringUpdate('!')" value="Logical NOT">
+                </div>
+                <div class="col">
+                    <input type="button" value="NextOperation>>">
+                </div>
+            </div>
+            <div class="container" id="row3">
+                <div class="col">
+                    <input type="button" value="Bitwise AND">
+                </div>
+                <div class="col">
+                    <input type="button" value="Bitwise OR">
+                </div>
+                <div class="col">
+                    <input type="button" value="Bitwise XOR">
+                </div>
+                <div class="col">
+                    <input type="button" value="Bitwise NOT">
+                </div>
+            </div>
+            <div class="container" id="row4">
+                <div class="extra2">
+                    <div class="col">
+                        <input type="button" value="Right Shift">
+                    </div>
+                    <div class="col">
+                        <input type="button" value="Left Shift">
+                    </div>
+                </div>
+                <div class="extra3">
+                    <div class="col">
+                        <input type="button" value="Unsigned Right Shift">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+        <script src="script.js">
+        </script>
+</html>
