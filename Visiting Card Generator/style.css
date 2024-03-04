@@ -1,0 +1,287 @@
+* {
+	font-family: "Roboto", monospace;
+	accent-color: blue;
+}
+
+body {
+	background: url("1.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 20px;
+}
+
+#main-cont {
+	margin: 100px 30% 100px 30%;
+	background: linear-gradient(60deg,rgb(0, 110, 255),rgb(0, 153, 255));
+	filter: blur(3);
+	height: auto;
+	padding: 5%;
+}
+
+;
+
+.box {
+	display: block;
+	width: 500px;
+	height: 90px;
+	float: right;
+	border-radius: 14px;
+
+}
+
+.btn {
+    font-size: 25px;
+    font-family: "College";
+    margin: 21px 20px 0px 5px;
+    border: 0px solid red;
+    border-radius: 5px;
+    height: 70px;
+    position: relative;
+    left: 6%;
+    right: 2%;
+    width: 25%;
+    transition: transform 0.5s;
+}
+input[type="color"]
+{
+	font-size: 15px;
+	padding: 5px;
+	height: 30px;
+	float: right;
+	width: 30px	;
+	border-radius: 50%;
+	border: 0px solid gray;
+}
+/* .btn:hover{
+	transform:rotateX(360deg);
+} */
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+	margin: 2% 0% 2% 0%;
+	font-size: 15px;
+	padding: 10px;
+	width: 100%;
+	position: relative;
+}
+select{
+	width: 150px;
+	height: 40px;
+	border-radius: 5px;
+	font-size: 15px;
+}
+#m {
+	height: 400px;
+	width: 750px;
+	background: #9fa3bb;
+	padding: 10px;
+	border: 10px white solid;
+	border-radius: 4px;
+	margin: auto;
+	color:black;
+	font-family: Arial;
+}
+
+.rect {
+	width: 80%;
+	padding: 2px 10px 2px 10px;
+	margin: 10px;
+	background: #fc1a70;
+	border-radius: 14px;
+	border: 0px solid black;
+}
+
+.rect:hover {
+	color: white;
+	background: black;
+}
+
+#container1 {
+	display: flex;
+	justify-content: space-between;
+}
+
+#outNum {
+	font-size: 30px;
+}
+
+#outMail {
+	font-size: 30px;
+}
+
+#logo {
+	width: 300px;
+	margin: auto;
+	background-image: url(genetic-data-svgrepo-com.svg);
+	background-repeat: no-repeat;
+	background-size: 300px;
+	height: 300px;
+}
+
+#outName {
+	width: 100%;
+	font-size: 30px;
+	text-align: center;
+}
+
+#outDesOrg {
+	width: 100%;
+	font-size: 30px;
+	text-align: center;
+}
+
+#outNum2 {
+	font-size: 30px;
+	width: 50%;
+	text-align: right;
+}
+
+#outMail2 {
+	font-size: 30px;
+	width: 50%;
+}
+
+#logo2 {
+	width: 60px;
+	background-image: url(genetic-data-svgrepo-com.svg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 60px;
+}
+
+#outName2 {
+	width: 100%;
+	font-size: 73px;
+	text-align: center;
+}
+
+#outDesOrg2 {
+	width: 100%;
+	font-size: 40px;
+	margin: 24px 0px 24px 0px;
+	text-align: center;
+}
+
+#container2 {
+	display: flex;
+}
+
+#WebSite2 {
+	width: 100%;
+	text-align: center;
+	font-size: 40px;
+}
+
+.imgBack2 {
+	background: beige;
+	padding-bottom: 30px;
+	margin-bottom: 20px;
+}
+
+
+#outNum3 {
+	font-size: 20px;
+	width: 50%;
+	text-align: right;
+}
+
+#outMail3 {
+	font-size: 20px;
+	width: 50%;
+}
+
+#logo3 {
+	width: 400px;
+	background-image: url(genetic-data-svgrepo-com.svg);
+	background-repeat: no-repeat;
+	background-size: 400px;
+	height: 400px;
+}
+
+#outName3 {
+	margin-top: 100px;
+	width: 100%;
+	font-size: 30px;
+}
+
+#outDesOrg3 {
+	width: 100%;
+	font-size: 30px;
+}
+
+#container3 {
+	display: flex;
+}
+
+#WebSite3 {
+	width: 100%;
+	font-size: 30px;
+}
+
+
+#outNum3 {
+	font-size: 30px;
+	width: 50%;
+	text-align: right;
+}
+
+#outMail3 {
+	font-size: 30px;
+	width: 50%;
+}
+
+.imgBack3 {
+	background: beige;
+	margin-right: 50px;
+}
+
+#logo4 {
+	width: 200px;
+	background-image: url(genetic-data-svgrepo-com.svg);
+	background-repeat: no-repeat;
+	background-size: 200px;
+	height: 200px;
+	margin: auto;
+}
+
+#outName4 {	
+	font-size: 48px;
+	text-align: center;
+	margin:5px 0px 5px 0px;
+}
+
+#outDesOrg4 {
+	width: 100%;
+	font-size: 32px;
+	text-align: center;
+	margin: 5px 0px 5px 0px;
+}
+
+#container4 {
+	display: flex;
+
+}
+
+#WebSite4 {
+	width: 100%;
+	text-align: center;
+	font-size: 25px;
+	margin: 5px 0px 5px 0px;
+}
+
+#outNum4 {
+	font-size: 25px;
+	width: 50%;
+	text-align: right;
+	margin: 5px 0px 5px 0px;
+}
+
+#outMail4 {
+	font-size: 25px;
+	width: 50%;
+	margin: 5px 0px 5px 0px;
+}
+
+#imgBack4 {
+	background-color: beige;
+}

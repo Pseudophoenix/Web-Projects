@@ -1,0 +1,88 @@
+<!DOCTYPE htmL>
+<html>
+
+<head>
+    <title>Visiting Card</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster&effect=shadow-multiple">
+</head>
+
+<body>
+    <div id="main-cont">
+        <!--<form onsubmit="return Print()" action="index.html" method="">-->
+        <div class="box">
+            Name:
+            <input name="uname" id="uname" type="text" class="IText" placeholder="Enter your name">
+        </div>
+        <br>
+        <div class="box">
+            Org Name:
+            <input type="text" class="IText" id="uorg" placeholder="Enter your Organization name">
+        </div>
+        <br>
+        Designation:
+        <input type="text" class="IText" id="udesg" placeholder="Enter your designation">
+        <br>
+        Email:
+        <input type="email" class="IText" id="umail" placeholder="Enter your Email addresss">
+        <br>
+        Website:
+        <input type="text" class="IText" id="uweb" placeholder="Enter your Website link">
+        <br>
+        Mobile:
+        <input type="number" class="IText" id="unum" placeholder="Enter number">
+        <br>
+        <!-- <input type="radio" class="check" name="format" value="1"/>Format 1
+<input type="radio" class="check" name="format" value="2"/>Format 2
+<input type="radio" class="check" name="format" value="3"/>Format 3
+<input type="radio" class="check" name="format" value="4" checked/>Format 4 -->
+        <div>
+            <label name="themeColor">Text-Color :</label>
+            <input type="color" value="#2c2b40" name="texColor" />
+        </div>
+        <br>
+        <div>
+            <label name="themeColor">Primary-Color :</label>
+            <input type="color" value="#e14c4c" name="secColor" />
+        </div>
+        <br>
+        <div><label>Secondary-Color :</label>
+            <input type="color" value="#4afd0a" name="priColor" />
+        </div>
+        <br>
+        <div><label>Font-Family :</label>
+            <select name="fontF">
+                <option value=0>Bootcamp</option>
+                <option value=1>Dot Matrix</option>
+                <option value=2>Comic Sans MS</option>
+                <option value=3>Bradley Hand ITC</option>
+                <option value=4>Ink Free</option>
+                <option value=5>LED Dot-Matrix</option>
+                <option value=6>Agency FB</option>
+                <option value=7>Bahnschrift</option>
+                <option value=8>Broadway</option>
+            </select>
+        </div>
+        <br>
+        <label>Format:</label>
+        <input type="number" id="format">
+        <br>
+
+        <input type="submit" onclick="Save()" class="btn" id="submit" value="Generate">
+       <input type="button" value="Print" onclick="SavePrint()" class="btn">
+        <input type="reset" value="Reset" onclick="Reset()	" class="btn">
+        </form>
+    </div>
+
+
+    <div id="con">
+        <div id="m">
+        </div>
+    </div>
+
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
