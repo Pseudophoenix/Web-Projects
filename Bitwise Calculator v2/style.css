@@ -1,0 +1,54 @@
+* {}
+
+.container {
+	background: #04aa6d;
+	height: auto;
+	width: 500px;
+	margin: auto;
+	margin-top: 10%;
+	padding: 50px;
+}
+
+input {
+	padding: 10px;
+	border-radius: 10px;
+	margin: 10px 0px 10px 0px;
+}
+
+.mod {
+	display: block;
+	width: 100%;
+}
+
+select {
+	width: 100%;
+	padding: 10px;
+	border-radius: 10px;
+	margin: 10px 0px 10px 0px;
+}
+
+input[type="button"] {
+	color: #04aa6d;
+	border-radius: 10px;
+	width: 100px;
+	margin: auto;
+}
+
+#res {
+	font-size: 20px;
+	width: auto;
+	height: 30px;
+	margin: 20px 0px 0px 0px;
+	padding: 5px;
+	text-align: center;
+	background-color: #04fa60;
+	;
+}
+
+input[type="text"] {
+	width: 94%;
+}
+
+option {
+	width: 100px;
+}

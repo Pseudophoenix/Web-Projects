@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js">
+</script>
+</head>
+<body>
+<div class="container">
+<div class="mod">
+<label for="Length">Enter the Binary String Length:</label>
+
+<select name="length" id="len">
+  <option value="4">4bits</option>
+  <option value="8">8bits</option>
+  <option value="16">16bits</option>
+  <option value="32">32bits</option>
+  <option value="64">64bits</option>
+</select>
+</div>
+<div class="mod">String 1: <input type="text" name="binStr" placeholder="Enter String 1"></div>
+<div class="mod">String 2: <input type="text" name="binStr" placeholder="Enter String 2"><div>
+<div>
+Select Operation:
+<select name="operation" id="op">
+  <option value="1">Bitwise AND</option>
+  <option value="2">Bitwise OR</option>
+  <option value="3">Bitwise XOR</option>
+  <option value="4">Bitwise NOT</option>
+</select>
+</div>
+<input type="button" value="Submit" onclick="Calculate()">
+
+
+<div id="res"></div>
+
+
+</div>
+</div>
+</body>
+</html>
+
+
+
+
